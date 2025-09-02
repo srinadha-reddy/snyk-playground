@@ -1,0 +1,5 @@
+ignore:
+  SNYK-PYTHON-JSONPICKLE-8136229:
+    - "*":
+        reason: "Temporary accepted risk: transitive via botbuilder-azure@4.16.2; upgrade path blocked. Will revisit when upstream dependency updates or when safe upgrade possible."
+        expires: "2026-09-02"
