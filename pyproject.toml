@@ -10,7 +10,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.8"
-botbuilder-azure = "4.16.2"
+botbuilder-azure = { git = "https://github.com/srinadha-reddy/botbuilder-python.git", branch = "main", subdirectory = "libraries/botbuilder-azure" }
 
 [tool.poetry.group.dev.dependencies]
 # No dev deps required for this tiny sample; tests use the stdlib `unittest`.
