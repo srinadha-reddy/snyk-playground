@@ -1,0 +1,9 @@
+Error: Unknown command "projects"
+    at Object.error [as method] (/snapshot/snyk/dist/cli/index.js:44706:13)
+    at runCommand (/snapshot/snyk/dist/cli/index.js:40203:38)
+    at main (/snapshot/snyk/dist/cli/index.js:40444:21)
+    at /snapshot/snyk/dist/cli/index.js:40062:11
+    at process.runNextTicks [as _tickCallback] (node:internal/process/task_queues:60:5)
+    at Function.runMain (pkg/prelude/bootstrap.js:1984:13)
+    at node:internal/main/run_main_module:28:49
+    at async callHandlingUnexpectedErrors (/snapshot/snyk/dist/cli/index.js:43760:9)

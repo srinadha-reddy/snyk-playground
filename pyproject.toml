@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "service-library-sample"
+version = "0.1.0"
+description = "A small example package created for demonstration with Poetry."
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [
+  { include = "service_library", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+botbuilder-azure = "4.16.2"
+
+[tool.poetry.group.dev.dependencies]
+# No dev deps required for this tiny sample; tests use the stdlib `unittest`.
+pytest = "^7.0" # optional, useful if the user prefers pytest
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
